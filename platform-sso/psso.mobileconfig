@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AuthenticationMethod</key>
+			<string>UserSecureEnclaveKey</string>
+			<key>ExtensionData</key>
+			<dict>
+				<key>Enable_SSO_On_All_ManagedApps</key>
+				<integer>1</integer>
+			</dict>
+			<key>ExtensionIdentifier</key>
+			<string>com.microsoft.CompanyPortalMac.ssoextension</string>
+			<key>PayloadDisplayName</key>
+			<string>Single Sign-On Extensions #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.extensiblesso.7F63FD07-58C5-42A6-B12A-568799D6B093</string>
+			<key>PayloadType</key>
+			<string>com.apple.extensiblesso</string>
+			<key>PayloadUUID</key>
+			<string>A31F6AA3-1935-4D85-9AFF-3415B5D5974A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PlatformSSO</key>
+			<dict>
+				<key>AccountDisplayName</key>
+				<string>Tarbell Management Group</string>
+				<key>AuthenticationMethod</key>
+				<string>UserSecureEnclaveKey</string>
+				<key>EnableAuthorization</key>
+				<true/>
+				<key>EnableCreateUserAtLogin</key>
+				<true/>
+				<key>NewUserAuthorizationMode</key>
+				<string>Standard</string>
+				<key>TokenToUserMapping</key>
+				<dict>
+					<key>AccountName</key>
+					<string>{{EnrollmentUser}}</string>
+				</dict>
+				<key>UseSharedDeviceKeys</key>
+				<true/>
+				<key>UserAuthorizationMode</key>
+				<string>Standard</string>
+			</dict>
+			<key>RegistrationToken</key>
+			<string>{{DEVICEREGISTRATION}}</string>
+			<key>ScreenLockedBehavior</key>
+			<string>DoNotHandle</string>
+			<key>TeamIdentifier</key>
+			<string>UBF8T346G9</string>
+			<key>Type</key>
+			<string>Redirect</string>
+			<key>URLs</key>
+			<array>
+				<string>https://login.microsoft.com</string>
+				<string>https://sts.windows.net</string>
+				<string>https://login.partner.microsoftonline.cn</string>
+				<string>https://login.chinacloudapi.cn</string>
+				<string>https://login.microsoftonline.us</string>
+				<string>https://login-us.microsoftonline.com</string>
+				<string>https://login.microsoftonline.com</string>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Platform SSO</string>
+	<key>PayloadIdentifier</key>
+	<string>OrgName.19BB9D02-41FB-4089-959E-592934034A19</string>
+	<key>PayloadOrganization</key>
+	<string>OrgName</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>32C4D32C-C130-4EC1-93B4-939F143E6A87</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>
